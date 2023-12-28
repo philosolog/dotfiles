@@ -1,0 +1,154 @@
+{
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"editor.insertSpaces": false,
+	"workbench.preferredHighContrastColorTheme": "Visual Studio Light",
+	"editor.detectIndentation": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"files.autoSave": "afterDelay",
+	"lldb.library": "C:\\Library\\Developer\\Toolchains\\unknown-Asserts-development.xctoolchain\\usr\\bin\\liblldb.dll",
+	"workbench.startupEditor": "none",
+	"editor.formatOnSave": true,
+	"emmet.triggerExpansionOnTab": true,
+	"editor.semanticHighlighting.enabled": true,
+	"robloxLsp.completion.deprecatedMembers": true,
+	"robloxLsp.completion.callParenthesess": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"editor.mouseWheelZoom": true,
+	"editor.minimap.enabled": false,
+	"editor.smoothScrolling": true,
+	"files.associations": {
+		"*.lua": "lua"
+	},
+	"explorer.confirmDelete": false,
+	"[git-commit]": {
+		"editor.acceptSuggestionOnCommitCharacter": false
+	},
+	"git.confirmEmptyCommits": false,
+	"git.confirmSync": false,
+	"git.postCommitCommand": "sync",
+	"spellright.language": [
+		"en"
+	],
+	"spellright.documentTypes": [
+		"markdown",
+		"latex",
+		"plaintext"
+	],
+	"workbench.editorAssociations": {
+		"*.pdf": "latex-workshop-pdf-hook"
+	},
+	"latex-workshop.message.error.show": false,
+	"cph.general.defaultLanguage": "python",
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"cph.general.firstTime": false,
+	"cph.general.ignoreSTDERROR": true,
+	"liveshare.allowInvites": "all",
+	"acmx.execution.showRunIconInEditorTitleMenu": true,
+	"acmx.run.timeLimit": 4,
+	"acmx.execution.showCompileIconInEditorTitleMenu": true,
+	"acmx.execution.showSubmitIconInEditorTitleMenu": true,
+	"discord-documentation.pythonWrapper": "Pycord",
+	"code-runner.runInTerminal": true,
+	"discord.suppressNotifications": true,
+	"discord.removeRemoteRepository": true,
+	"discord.lowerDetailsNoWorkspaceFound": "not in a workspace",
+	"discord.detailsIdling": "currently tabbed out",
+	"discord.detailsDebugging": "{dir_name}",
+	"discord.lowerDetailsEditing": "╰ {dir_name}\\{file_name} (line {current_line} of {total_lines})",
+	"discord.lowerDetailsDebugging": "{empty}",
+	"discord.lowerDetailsIdling": "{empty}",
+	"discord.detailsEditing": "{workspace_folder}",
+	"discord.largeImage": "writing {lang}",
+	"discord.largeImageIdling": "nice keyboard",
+	"discord.smallImage": "vscode",
+	"git.openRepositoryInParentFolders": "never",
+	"liveshare.languages.allowGuestCommandControl": true,
+	"settingsSync.ignoredExtensions": [],
+	"window.commandCenter": false,
+	"settingsSync.ignoredSettings": [],
+	"workbench.colorTheme": "One Dark Pro Darker",
+	"cph.general.autoShowJudge": false,
+	"latex-utilities.countWord.args": [],
+	"tabnine.experimentalAutoImports": true,
+	"manim-sideview.checkeredBackground": false,
+	"manim-sideview.focusOutputOnRun": true,
+	"manim-sideview.previewAutoPlay": false,
+	"manim-sideview.previewLooping": false,
+	"manim-sideview.runOnSave": false,
+	"php.validate.executablePath": "",
+	"latex-workshop.view.pdf.hand": true,
+	"latex-workshop.latex.autoBuild.run": "never",
+	"python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+	"editor.inlineSuggest.suppressSuggestions": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"todo-tree.general.tags": [
+		"!: ",
+		"TODO: ",
+		"?: ",
+		"*: "
+	],
+	"todo-tree.highlights.backgroundColourScheme": [
+		"red",
+		"orange",
+		"blue",
+		"green"
+	],
+	"todo-tree.highlights.customHighlight": {},
+	"todo-tree.highlights.foregroundColourScheme": [],
+	"todo-tree.general.showActivityBarBadge": true,
+	"todo-tree.highlights.useColourScheme": true,
+	"todo-tree.highlights.enabled": false,
+	"better-comments.tags": [
+		{
+			"tag": "!: ",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?: ",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//: ",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "TODO: ",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*: ",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"editor.accessibilitySupport": "off",
+	"wakatime.apiKey": "waka_fc13aeac-d8df-4d6e-992c-6cae991fd63e"
+}
