@@ -97,7 +97,9 @@
 		"blue",
 		"green"
 	],
-	"todo-tree.highlights.customHighlight": {},
+	"todo-tree.highlights.customHighlight": {
+	
+	},
 	"todo-tree.highlights.foregroundColourScheme": [],
 	"todo-tree.general.showActivityBarBadge": true,
 	"todo-tree.highlights.enabled": false,
