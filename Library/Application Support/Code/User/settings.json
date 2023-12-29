@@ -100,7 +100,6 @@
 	"todo-tree.highlights.customHighlight": {},
 	"todo-tree.highlights.foregroundColourScheme": [],
 	"todo-tree.general.showActivityBarBadge": true,
-	"todo-tree.highlights.useColourScheme": true,
 	"todo-tree.highlights.enabled": false,
 	"better-comments.tags": [
 		{
@@ -150,5 +149,11 @@
 		}
 	],
 	"editor.accessibilitySupport": "off",
-	"wakatime.apiKey": "waka_fc13aeac-d8df-4d6e-992c-6cae991fd63e"
+	"todo-tree.highlights.useColourScheme": true,
+	"todo-tree.tree.showCountsInTree": true,
+	"todo-tree.tree.buttons.scanMode": true,
+	"todo-tree.tree.buttons.groupBySubTag": true,
+	"todo-tree.filtering.scopes": [],
+	"todo-tree.tree.groupedByTag": true,
+	"todo-tree.tree.expanded": true
 }
