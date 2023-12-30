@@ -70,7 +70,7 @@
 	"settingsSync.ignoredExtensions": [],
 	"window.commandCenter": false,
 	"settingsSync.ignoredSettings": [],
-	"workbench.colorTheme": "One Dark Pro Darker",
+	"workbench.colorTheme": "Catppuccin Mocha",
 	"cph.general.autoShowJudge": false,
 	"latex-utilities.countWord.args": [],
 	"tabnine.experimentalAutoImports": true,
@@ -89,25 +89,30 @@
 		"!: ",
 		"TODO: ",
 		"?: ",
-		"*: "
+		"*: ",
+		"Note: "
 	],
 	"todo-tree.highlights.backgroundColourScheme": [
 		"red",
 		"orange",
 		"blue",
-		"green"
+		"green",
+		"yellow"
 	],
-	"todo-tree.highlights.customHighlight": {},
+	"todo-tree.highlights.customHighlight": {
+
+	},
 	"todo-tree.highlights.foregroundColourScheme": [],
 	"todo-tree.general.showActivityBarBadge": true,
 	"better-comments.tags": [
+
 		{
 			"tag": "!: ",
 			"color": "#FF2D00",
 			"strikethrough": false,
 			"underline": false,
 			"backgroundColor": "transparent",
-			"bold": false,
+			"bold": true,
 			"italic": false
 		},
 		{
@@ -116,7 +121,7 @@
 			"strikethrough": false,
 			"underline": false,
 			"backgroundColor": "transparent",
-			"bold": false,
+			"bold": true,
 			"italic": false
 		},
 		{
@@ -125,7 +130,7 @@
 			"strikethrough": true,
 			"underline": false,
 			"backgroundColor": "transparent",
-			"bold": false,
+			"bold": true,
 			"italic": false
 		},
 		{
@@ -134,7 +139,7 @@
 			"strikethrough": false,
 			"underline": false,
 			"backgroundColor": "transparent",
-			"bold": false,
+			"bold": true,
 			"italic": false
 		},
 		{
@@ -143,7 +148,16 @@
 			"strikethrough": false,
 			"underline": false,
 			"backgroundColor": "transparent",
-			"bold": false,
+			"bold": true,
+			"italic": false
+		},
+		{
+			"tag": "Note: ",
+			"color": "#FFFF00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
 			"italic": false
 		}
 	],
@@ -156,5 +170,11 @@
 	"todo-tree.tree.groupedByTag": true,
 	"todo-tree.tree.expanded": true,
 	"todo-tree.highlights.enabled": false,
-	"todo-tree.filtering.includeHiddenFiles": true
+	"todo-tree.filtering.includeHiddenFiles": true,
+	"workbench.iconTheme": "catppuccin-perfect-mocha",
+	"cody.telemetry.level": "off",
+	"cody.autocomplete.formatOnAccept": true,
+	"cody.autocomplete.enabled": true,
+	"cody.autocomplete.completeSuggestWidgetSelection": false,
+	"better-comments.highlightPlainText": true
 }
