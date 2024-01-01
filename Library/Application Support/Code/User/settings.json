@@ -40,7 +40,6 @@
 		"*.pdf": "latex-workshop-pdf-hook"
 	},
 	"latex-workshop.message.error.show": false,
-	"cph.general.defaultLanguage": "python",
 	"[python]": {
 		"editor.formatOnType": true
 	},
@@ -99,13 +98,10 @@
 		"green",
 		"yellow"
 	],
-	"todo-tree.highlights.customHighlight": {
-
-	},
+	"todo-tree.highlights.customHighlight": {},
 	"todo-tree.highlights.foregroundColourScheme": [],
 	"todo-tree.general.showActivityBarBadge": true,
 	"better-comments.tags": [
-
 		{
 			"tag": "!: ",
 			"color": "#FF2D00",
@@ -174,7 +170,16 @@
 	"workbench.iconTheme": "catppuccin-perfect-mocha",
 	"cody.telemetry.level": "off",
 	"cody.autocomplete.formatOnAccept": true,
-	"cody.autocomplete.enabled": true,
+	"cody.autocomplete.enabled": false,
 	"cody.autocomplete.completeSuggestWidgetSelection": false,
-	"better-comments.highlightPlainText": true
+	"better-comments.highlightPlainText": true,
+	"codeium.aggressiveShutdown": true,
+	"codeium.enableCodeLens": false,
+	"codeium.enableConfig": {
+		"*": true,
+		"markdown": true
+	},
+	"cph.general.defaultLanguage": "python",
+	"cph.general.saveLocation": "/Users/philosolog/Desktop/Competitive-Programming/bin/.cph",
+	"cph.general.defaultLanguageTemplateFileLocation": "/Users/philosolog/Desktop/Competitive-Programming/Python/Templates/PyRival_Template.py"
 }
