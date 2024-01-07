@@ -69,7 +69,6 @@
 	"settingsSync.ignoredExtensions": [],
 	"window.commandCenter": false,
 	"settingsSync.ignoredSettings": [],
-	"workbench.colorTheme": "Catppuccin Mocha",
 	"cph.general.autoShowJudge": false,
 	"latex-utilities.countWord.args": [],
 	"tabnine.experimentalAutoImports": true,
@@ -167,7 +166,6 @@
 	"todo-tree.tree.expanded": true,
 	"todo-tree.highlights.enabled": false,
 	"todo-tree.filtering.includeHiddenFiles": true,
-	"workbench.iconTheme": "catppuccin-perfect-mocha",
 	"cody.telemetry.level": "off",
 	"cody.autocomplete.formatOnAccept": true,
 	"cody.autocomplete.enabled": false,
@@ -180,6 +178,6 @@
 		"markdown": true
 	},
 	"cph.general.defaultLanguage": "python",
-	"cph.general.saveLocation": "/Users/philosolog/Desktop/Competitive-Programming/bin/.cph",
-	"cph.general.defaultLanguageTemplateFileLocation": "/Users/philosolog/Desktop/Competitive-Programming/Python/Templates/PyRival_Template.py"
+	"workbench.iconTheme": "catppuccin-perfect-mocha",
+	"workbench.colorTheme": "Catppuccin Mocha"
 }
