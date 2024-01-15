@@ -53,7 +53,6 @@
 	"discord-documentation.pythonWrapper": "Pycord",
 	"code-runner.runInTerminal": true,
 	"discord.suppressNotifications": true,
-	"discord.removeRemoteRepository": true,
 	"discord.lowerDetailsNoWorkspaceFound": "not in a workspace",
 	"discord.detailsIdling": "currently tabbed out",
 	"discord.detailsDebugging": "{dir_name}",
