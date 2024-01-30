@@ -177,6 +177,6 @@
 		"markdown": true
 	},
 	"cph.general.defaultLanguage": "python",
-	"workbench.iconTheme": "catppuccin-perfect-mocha",
-	"workbench.colorTheme": "Catppuccin Mocha"
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.iconTheme": "catppuccin-perfect-dracula"
 }
