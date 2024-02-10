@@ -178,5 +178,7 @@
 	},
 	"cph.general.defaultLanguage": "python",
 	"workbench.colorTheme": "Catppuccin Mocha",
-	"workbench.iconTheme": "catppuccin-perfect-dracula"
+	"workbench.iconTheme": "catppuccin-perfect-dracula",
+	"Devdb.dontShowNewVersionMessage": true,
+	"Devdb.colorTheme": "dark"
 }
