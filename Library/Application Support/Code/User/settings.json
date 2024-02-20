@@ -180,5 +180,6 @@
 	"workbench.colorTheme": "Catppuccin Mocha",
 	"workbench.iconTheme": "catppuccin-perfect-dracula",
 	"Devdb.dontShowNewVersionMessage": true,
-	"Devdb.colorTheme": "dark"
+	"Devdb.colorTheme": "dark",
+	"explorer.confirmDragAndDrop": false
 }
