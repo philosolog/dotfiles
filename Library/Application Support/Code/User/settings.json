@@ -177,10 +177,11 @@
 		"markdown": true
 	},
 	"cph.general.defaultLanguage": "python",
-	"workbench.colorTheme": "Catppuccin Mocha",
-	"workbench.iconTheme": "catppuccin-perfect-dracula",
 	"Devdb.dontShowNewVersionMessage": true,
 	"Devdb.colorTheme": "dark",
 	"explorer.confirmDragAndDrop": false,
-	"editor.stickyScroll.defaultModel": "foldingProviderModel"
+	"editor.stickyScroll.defaultModel": "foldingProviderModel",
+	"typescript.updateImportsOnFileMove.enabled": "never",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.iconTheme": "catppuccin-perfect-dark"
 }
