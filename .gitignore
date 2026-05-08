@@ -1,2 +1,17 @@
 .DS_Store
 
+# Shell/editor history and local session state.
+**/*history*
+**/*_history
+**/.zsh_sessions/
+**/.viminfo
+**/.wget-hsts
+
+# Dependency/cache state that should be regenerated, not synced.
+**/.cache/
+**/.npm/
+**/.nvm/
+**/.rustup/
+**/.cargo/
+**/.elan/
+**/.local/
