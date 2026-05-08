@@ -21,7 +21,7 @@ cat > "$plist" <<PLIST
     <string>$repo_dir/scripts/sync-amac-dotfiles.sh</string>
   </array>
   <key>StartInterval</key>
-  <integer>1800</integer>
+  <integer>86400</integer>
   <key>RunAtLoad</key>
   <true/>
   <key>StandardOutPath</key>

@@ -37,7 +37,7 @@ Update tracked files, app list, commit, and push:
 ~/dotfiles/scripts/sync-amac-dotfiles.sh
 ```
 
-Optional: install a LaunchAgent that runs sync every 30 minutes:
+Optional: install a LaunchAgent that runs sync at login and daily:
 
 ```sh
 ~/dotfiles/scripts/install-autosync-launchagent.sh
