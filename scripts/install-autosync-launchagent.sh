@@ -2,8 +2,15 @@
 set -euo pipefail
 
 repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+expected_repo_dir="$HOME/dotfiles"
 plist="$HOME/Library/LaunchAgents/com.philosolog.dotfiles-sync.plist"
 log_dir="$HOME/Library/Logs"
+
+if [[ "$repo_dir" != "$expected_repo_dir" ]]; then
+  echo "Refusing to install from $repo_dir" >&2
+  echo "Clone repo to $expected_repo_dir and run this script from there." >&2
+  exit 1
+fi
 
 mkdir -p "$(dirname "$plist")" "$log_dir"
 
@@ -32,6 +39,6 @@ cat > "$plist" <<PLIST
 </plist>
 PLIST
 
-launchctl unload "$plist" >/dev/null 2>&1 || true
-launchctl load "$plist"
+launchctl bootout "gui/$(id -u)" "$plist" >/dev/null 2>&1 || true
+launchctl bootstrap "gui/$(id -u)" "$plist"
 echo "Installed auto-sync LaunchAgent: $plist"
