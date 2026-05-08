@@ -1,0 +1,53 @@
+# zsh runtime config. Local files are source of truth; Mackup only copies backups.
+
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME=""
+DISABLE_UNTRACKED_FILES_DIRTY="true"
+zstyle ':omz:update' mode auto
+plugins=(git)
+
+if [[ -x "/opt/homebrew/bin/brew" ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+elif [[ -x "/usr/local/bin/brew" ]]; then
+  eval "$(/usr/local/bin/brew shellenv)"
+fi
+
+[[ -f "$HOME/.local/bin/env" ]] && source "$HOME/.local/bin/env"
+[[ -d "$HOME/.spicetify" ]] && export PATH="$PATH:$HOME/.spicetify"
+[[ -d "$HOME/.antigravity/antigravity/bin" ]] && export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
+
+ulimit -n 4096 2>/dev/null || true
+
+zsh_cache_dir="${XDG_CACHE_HOME:-$HOME/.cache}/zsh"
+mkdir -p "$zsh_cache_dir"
+ZSH_COMPDUMP="$zsh_cache_dir/.zcompdump-${ZSH_VERSION}"
+unset zsh_cache_dir
+
+export NVM_DIR="$HOME/.nvm"
+[[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
+
+[[ -s "$ZSH/oh-my-zsh.sh" ]] && source "$ZSH/oh-my-zsh.sh"
+[[ -s "$NVM_DIR/bash_completion" ]] && source "$NVM_DIR/bash_completion"
+
+alias python="python3"
+alias pip="python3 -m pip"
+
+if command -v oh-my-posh >/dev/null 2>&1; then
+  omp_theme=""
+  if command -v brew >/dev/null 2>&1; then
+    omp_theme="$(brew --prefix oh-my-posh 2>/dev/null)/themes/catppuccin_mocha.omp.json"
+  fi
+
+  if [[ -n "$omp_theme" && -f "$omp_theme" ]]; then
+    eval "$(oh-my-posh init zsh --config "$omp_theme")"
+  else
+    eval "$(oh-my-posh init zsh)"
+  fi
+  unset omp_theme
+fi
+
+# Added by Antigravity
+export PATH="/Users/philosolog/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/philosolog/.antigravity/antigravity/bin:$PATH"

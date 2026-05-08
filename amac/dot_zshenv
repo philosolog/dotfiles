@@ -1,0 +1,2 @@
+[[ -f "$HOME/.rokit/env" ]] && source "$HOME/.rokit/env"
+[[ -f "$HOME/.cargo/env" ]] && source "$HOME/.cargo/env"
