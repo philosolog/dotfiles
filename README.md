@@ -1,30 +1,18 @@
-# Dotfiles
+# dotφles
 
-Machine-specific dotfiles managed by chezmoi.
+My workstation dotfiles, automatically managed with [chezmoi](https://github.com/twpayne/chezmoi).
+
+***Don't fuck up your system by proselytizing yourself into these presets if you aren't me.***
 
 ## amac
 
-Ocean recovery on a fresh Mac:
-
+Initialization:
 ```sh
 git clone https://github.com/philosolog/dotfiles.git ~/dotfiles
 ~/dotfiles/scripts/bootstrap-amac.sh
 ```
 
-If the private repo cannot be cloned yet:
-
-```sh
-xcode-select --install
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-eval "$(/opt/homebrew/bin/brew shellenv)"
-brew install gh git chezmoi
-gh auth login -h github.com
-gh repo clone philosolog/dotfiles ~/dotfiles
-~/dotfiles/scripts/bootstrap-amac.sh
-```
-
 Manual chezmoi apply:
-
 ```sh
 git clone https://github.com/philosolog/dotfiles.git ~/dotfiles
 chezmoi init --source ~/dotfiles/amac
@@ -32,13 +20,10 @@ chezmoi apply
 ```
 
 Update tracked files, app list, commit, and push:
-
 ```sh
 ~/dotfiles/scripts/sync-amac-dotfiles.sh
 ```
-
 Optional: install a LaunchAgent that runs sync at login and daily:
-
 ```sh
 ~/dotfiles/scripts/install-autosync-launchagent.sh
 ```
