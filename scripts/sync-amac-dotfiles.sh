@@ -29,9 +29,16 @@ fi
 git -C "$repo_dir" add .gitignore README.md amac scripts
 
 if git -C "$repo_dir" diff --cached --quiet; then
-  echo "No dotfile changes to sync."
+  ahead_count="$(git -C "$repo_dir" rev-list --count @{upstream}..HEAD 2>/dev/null || echo 0)"
+  if [[ "$ahead_count" != "0" ]]; then
+    git -C "$repo_dir" pull --rebase --autostash
+    git -C "$repo_dir" push
+  else
+    echo "No dotfile changes to sync."
+  fi
   exit 0
 fi
 
 git -C "$repo_dir" commit -m "Update amac recovery state"
+git -C "$repo_dir" pull --rebase --autostash
 git -C "$repo_dir" push
