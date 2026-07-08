@@ -1,10 +1,4 @@
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
-tap "homebrew/services"
 tap "jandedobbeleer/oh-my-posh"
-tap "nicoverbruggen/cask"
-tap "powershell/tap"
 tap "stripe/stripe-cli"
 tap "stripe/stripe-mock"
 
@@ -23,7 +17,6 @@ brew "gdbm"
 brew "gh"
 brew "gifsicle"
 brew "git"
-brew "go"
 brew "grep"
 brew "homebank"
 brew "httpie"
@@ -31,8 +24,10 @@ brew "imagemagick"
 brew "jandedobbeleer/oh-my-posh/oh-my-posh"
 brew "jpegoptim"
 brew "jq"
-brew "libffi"
+brew "libass"
 brew "libfido2"
+brew "libraw"
+brew "librist"
 brew "llmfit"
 brew "mas"
 brew "meilisearch"
@@ -57,6 +52,7 @@ brew "stripe/stripe-mock/stripe-mock"
 brew "subversion"
 brew "svgo"
 brew "typst"
+brew "unbound"
 brew "watchman"
 brew "wget"
 brew "yarn"
@@ -82,7 +78,6 @@ cask "insomnia"
 cask "mactex-no-gui"
 cask "pastebot"
 cask "qlmarkdown"
-cask "quicklook-json"
 cask "readdle-spark"
 cask "screenflow"
 cask "slack"
@@ -93,4 +88,15 @@ cask "tunnelbear"
 cask "tuple"
 cask "zoom"
 cask "zwift"
-mas "installed apps found", id: No
+mas "Amphetamine (5.3.2)", id: 937984704
+mas "Developer (11.0.2)", id: 640199958
+mas "GeoGebra Calculator Suite (6.0.920)", id: 1504416652
+mas "Home Assistant (2026.5.0)", id: 1099568401
+mas "Microsoft Excel (16.110.2)", id: 462058435
+mas "Microsoft PowerPoint (16.110.2)", id: 462062816
+mas "Microsoft Word (16.110.2)", id: 462054704
+mas "Notability (16.5.2)", id: 360593530
+mas "Perplexity (2.260428.0)", id: 6714467650
+mas "Speedtest (1.27)", id: 1153157709
+mas "Wallpaper Play (1.9.1)", id: 1638457121
+mas "‎WhatsApp (26.25.77)", id: 310633997
