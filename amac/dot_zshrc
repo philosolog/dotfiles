@@ -30,6 +30,9 @@ export NVM_DIR="$HOME/.nvm"
 alias python="python3"
 alias pip="python3 -m pip"
 
+# Limit agent shell output carried into model context.
+export BASH_MAX_OUTPUT_LENGTH=15000
+
 if command -v oh-my-posh >/dev/null 2>&1; then
 	omp_theme=""
 if command -v brew >/dev/null 2>&1; then
