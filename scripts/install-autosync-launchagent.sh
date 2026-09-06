@@ -27,8 +27,13 @@ cat > "$plist" <<PLIST
     <string>/bin/bash</string>
     <string>$repo_dir/scripts/sync-amac-dotfiles.sh</string>
   </array>
-  <key>StartInterval</key>
-  <integer>86400</integer>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
   <key>RunAtLoad</key>
   <true/>
   <key>StandardOutPath</key>
@@ -39,6 +44,8 @@ cat > "$plist" <<PLIST
 </plist>
 PLIST
 
+plutil -lint "$plist" >/dev/null
+launchctl enable "gui/$(id -u)/com.philosolog.dotfiles-sync"
 launchctl bootout "gui/$(id -u)" "$plist" >/dev/null 2>&1 || true
 launchctl bootstrap "gui/$(id -u)" "$plist"
 echo "Installed auto-sync LaunchAgent: $plist"
